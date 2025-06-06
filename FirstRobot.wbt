@@ -1,0 +1,1013 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/samples/contests/tower_of_hanoi/protos/YoubotFlag.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.3558580662764064 -0.7634373412634756 0.5390069226184133 4.720115559700211
+  position -0.7981658231592865 2.962195036284011 7.957421064026591
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  translation -0.0454386 0.570095 0
+  floorSize 5 5
+  wallThickness -0.3
+}
+Solid {
+  translation -0.0002646689967047783 -0.9522879001839083 0.04960761220425305
+  rotation -0.999996706808238 -0.0018142427460641286 0.001815184821744895 1.5709963090711987
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(23)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity -2.2271814012404144e-07 -7.485739795068521e-05 -8.332782920206226e-08
+  angularVelocity 0.00149726496848963 -4.454710933465837e-06 1.423364427051273e-16
+}
+Solid {
+  translation 1.6781537258536214 1.7133135695646011 0.04960760100615214
+  rotation -0.9993434379064586 -0.0257053466916427 0.025532885946609733 1.57144730987425
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(21)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity 6.557945145162584e-05 3.886530264080176e-06 7.610714192196609e-10
+  angularVelocity -7.773667977541975e-05 0.0013116915271466749 2.0764552075604013e-16
+}
+Solid {
+  translation 1.9459068048984556 2.511233877026529 0.0496076603621616
+  rotation -0.9999987975954238 0.0010965417700005936 -0.0010965417700007014 1.5707975292001954
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(27)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity -5.808824291897551e-17 4.291164842529973e-17 -4.727363603931784e-07
+  angularVelocity -9.32587340685131e-16 -9.32587340685131e-16 -1.3105539534903863e-16
+}
+Solid {
+  translation 1.6444537341751033 1.1005670847167166 0.04960762096965745
+  rotation -0.999998025403158 0.001494304001749009 -0.00131005547032866 1.570799372391379
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(18)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity -7.012297554657155e-05 -3.092811993843525e-07 -1.525043106767043e-07
+  angularVelocity 6.186107402328386e-06 -0.0014025691149011973 -9.75781970824821e-17
+}
+Solid {
+  translation 2.065525476911659 0.5294332032392368 0.04960760635186687
+  rotation -0.9999905411484497 0.003075842289826544 -0.003075192325494529 1.5705940287807352
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(29)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity 4.93837732552557e-10 8.059149452899329e-05 -3.628337287864269e-08
+  angularVelocity -0.0016119558706818352 9.877525197764442e-09 -2.9819779457075494e-16
+}
+Solid {
+  translation 2.004082925550958 -1.275061076242734 0.04960766036216163
+  rotation -0.9999988971078478 0.0010501864330245908 -0.0010501864330245824 1.5707974296876568
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(20)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity -4.905036542379697e-17 1.8950629826241875e-17 -4.7273636050683753e-07
+  angularVelocity 2.6645352591003707e-16 -5.329070518200753e-16 1.9792399073014946e-17
+}
+Solid {
+  translation 1.5013212480462945 -0.718008688708023 0.04960766036216159
+  rotation -0.999998151151742 0.0013597229677331 -0.0013597229677329745 1.570798175644864
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(32)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity 2.3830210470480427e-17 -8.151834042527907e-17 -4.7273636050680704e-07
+  angularVelocity 1.199040866595168e-15 6.661338147750942e-16 -4.162302338198381e-16
+}
+Solid {
+  translation -1.2299578106372517 0.6010391010663845 0.0496075243665311
+  rotation -0.9999814361666507 0.004405207435725273 -0.004209687581166792 1.570816293212426
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(6)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity -7.441436046451302e-05 -2.1319540284628343e-07 5.961367407962824e-07
+  angularVelocity 4.264241300866445e-06 -0.00148840352572872 -2.1779452834902876e-16
+}
+Solid {
+  translation -1.8023105235900752 1.2746308613481627 0.04960766036216159
+  rotation -0.9999980749944186 0.001387445036219176 -0.001387445036219102 1.570798251802331
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(15)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity 4.854850884368738e-17 -1.0532369375084868e-16 -4.7273636050707205e-07
+  angularVelocity 2.2648549702353184e-15 9.325873406851321e-16 -1.6653769588363797e-16
+}
+Solid {
+  translation -0.810812817259188 1.1589766774392738 0.04960758115527059
+  rotation -0.9999930011955919 -0.002696182545239637 0.0025938696026731084 1.5705574140832912
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(16)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity 3.868626950718303e-05 9.36920842929914e-05 1.6614571057971257e-07
+  angularVelocity -0.0018739881825343464 0.0007737858798842364 -1.2750178775255234e-16
+}
+Solid {
+  translation -0.9889454771112998 1.981315887433663 0.04960762569221265
+  rotation -0.9999887920961803 -0.003451048096346497 0.0032412881789204593 1.5708055356674004
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(24)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity 7.982885862419542e-05 1.0279487972448783e-06 -1.8615869998939156e-07
+  angularVelocity -2.0560582814699292e-05 0.0015967019594053335 -2.050443354793128e-16
+}
+Solid {
+  translation -1.847541226093557 1.9242113940090062 0.04960766036216157
+  rotation -0.9997161624718892 0.01684628286120101 -0.01684628286120106 1.5710802046086898
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(34)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity 1.292955135553953e-17 -9.00334841703538e-17 -4.7273636045001856e-07
+  angularVelocity 1.998401444325281e-15 -5.329070518200748e-16 1.0488155371544726e-16
+}
+Solid {
+  translation -1.5180343322737322 2.5273929266626705 0.049618103029706616
+  rotation -0.9999981283046327 0.0014194953489155722 -0.0013146939513168376 1.5710144342856025
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(31)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity -4.000267083878949e-05 -8.224140586292172e-05 -8.124479049229193e-05
+  angularVelocity 0.001644956692903942 -0.0008001159566743072 2.2325944462032194e-16
+}
+Solid {
+  translation -0.07272729970493003 1.8064758948954205 0.0496076603621616
+  rotation -0.9999981424664925 0.0013629129767575728 -0.0013629129767576441 1.570798184330129
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(17)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity 1.866148038890852e-17 6.812547047271308e-17 -4.7273636056371495e-07
+  angularVelocity -1.3322676295501878e-15 5.329070518200748e-16 -5.200451627158445e-17
+}
+Solid {
+  translation -0.4693813281573686 2.5148458711897064 0.049607613600766716
+  rotation -0.9999999189924635 -0.00028536066908075816 0.00028387383598507367 1.5706011693948065
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(30)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity 5.446654112036489e-07 7.430505235045625e-05 -9.429522606296812e-08
+  angularVelocity -0.0014862171924636231 1.0894159584839964e-05 8.352688749746592e-17
+}
+Solid {
+  translation 0.21002025537147123 2.2703643882932085 0.04963233786754576
+  rotation -0.9999981903978586 0.0013876996340209788 -0.001301341897276544 1.5706335155482973
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(35)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity -3.27797811735929e-05 6.269678799983667e-05 -0.00019138558243514577
+  angularVelocity -0.00125403375723696 -0.0006556468593995389 -2.3678504789840165e-17
+}
+Solid {
+  translation 0.31730308048760325 0.383811502811911 0.04960761553985633
+  rotation -0.5749532603517502 0.5820081003907178 0.5750611441320657 2.0872612865152322
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity 4.3163681445706353e-07 7.09670354047642e-05 -1.1025825853039348e-07
+  angularVelocity -0.0014194516322530329 8.633410954139266e-06 -1.742448546515421e-16
+}
+Solid {
+  translation 0.4992581015255954 -0.4219666782871143 0.04960766036216161
+  rotation -0.5747368514434811 0.5825419325556467 0.5747368514434813 2.0866251138942338
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(10)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity -3.509499005010862e-17 -2.3265021089829793e-17 -4.7273636050714034e-07
+  angularVelocity -1.9721522630525295e-31 -9.32587340685131e-16 -2.1914006238569517e-17
+}
+Solid {
+  translation -0.5016547370127742 0.41429413759268147 0.0496076104328489
+  rotation -0.5698184416038975 0.5920302111702145 0.5699185667004164 2.0723635486829
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(7)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity 2.0036336133119064e-06 6.628821449197838e-05 -7.200964802223096e-08
+  angularVelocity -0.0013258678963044444 4.007580388396532e-05 -4.6499413424452005e-17
+}
+Solid {
+  translation -1.1777113615741877 -0.23450024236136133 0.049607660362161604
+  rotation -0.5766434493384002 0.5787613192588318 0.5766434493384002 2.0922798205213193
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(8)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity -6.042499093023914e-17 -6.177639244639355e-17 -4.7273636045027574e-07
+  angularVelocity 1.0658141036401926e-15 -1.199040866595149e-15 1.4493439881184794e-16
+}
+Solid {
+  translation -1.7898914114098805 -0.4432541206006588 0.049607698411992064
+  rotation -0.5765982815644587 0.5786567394693682 0.576793550209772 2.0925627943553735
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(33)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity -9.202974139010562e-05 3.671323153433237e-05 -7.41968855777486e-07
+  angularVelocity -0.0007343220335971341 -0.0018407387207478353 -8.89569349789044e-17
+}
+Solid {
+  translation -0.4990061966622971 -0.41948035510043385 0.049607660362161576
+  rotation -0.5767347063516955 0.5785794301380291 0.5767347063516958 2.0925523422872168
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(14)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity -1.7124925942204464e-16 -2.6896102159287107e-17 -4.727363605068569e-07
+  angularVelocity 3.9968028886505676e-16 -4.396483177515618e-15 2.1645331740643078e-17
+}
+Solid {
+  translation -1.9402646476287513 0.43116756135272805 0.049618114082034696
+  rotation -0.576798205120747 0.5786496961376475 0.5766006934866562 2.092342817083018
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(13)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity 8.790582750938357e-05 -4.229352899985458e-05 -8.132802004837457e-05
+  angularVelocity 0.0008459367066118159 0.0017582539923669306 -1.3329661676693228e-16
+}
+Solid {
+  translation -1.0284214239588338 -1.056353183174308 0.04961046296052481
+  rotation -0.5830079377457401 0.5659673715416287 0.5829088083703309 2.11170843353565
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(9)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity -3.05709556405184e-08 -6.66973205202833e-05 -2.2141756489986613e-05
+  angularVelocity 0.0013340506566516194 -6.114668939181276e-07 -1.4752679633723888e-16
+}
+Solid {
+  translation -1.800441392536345 -1.3412899556044575 0.04963301223063455
+  rotation -0.5710838449591388 0.5895352254728531 0.571236780987848 2.0762226446805956
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(25)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity -5.125863510702345e-05 4.9070631786709404e-05 -0.00019660303247633233
+  angularVelocity -0.0009814893349796348 -0.0010252528213176679 1.306766894507599e-16
+}
+Solid {
+  translation 0.3346635802923118 1.3780888742052022 0.04960762284345991
+  rotation -0.9999972345986473 0.0017765948053903421 -0.0015409432031498515 1.5707975659335114
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(1)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity -8.968424353019683e-05 7.296386648129558e-07 -1.6081112687515995e-07
+  angularVelocity -1.459391398341835e-05 -0.0017938250792658647 3.2057690178660394e-16
+}
+Solid {
+  translation 1.024290001017379 0.056766511570515266 0.04960766036216161
+  rotation -0.9999826061289078 0.004170577875883919 -0.004170577875883834 1.570813720817263
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(2)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity -2.7728514649717034e-17 -5.013403499829462e-17 -4.7273636050686305e-07
+  angularVelocity 6.661338147750939e-16 1.332267629550187e-16 -1.2023540483932488e-16
+}
+Solid {
+  translation 1.9103926562841953 -0.11423708743686539 0.049607605427430326
+  rotation -0.9999927603545135 0.002585124134138823 -0.0027921983761245864 1.570805686469811
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(28)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity 7.880728696717406e-05 -1.018729504269469e-06 -2.969214284576082e-08
+  angularVelocity 2.0376182525794198e-05 0.0015762689279998018 -5.724590091760684e-17
+}
+Solid {
+  translation -0.07476733146417662 0.9700790306516051 0.04961816681234844
+  rotation -0.9999979795236662 0.0015164241256561033 -0.0013196236040647444 1.5709537787297319
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(3)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity -7.498896486236982e-05 -5.904847897025596e-05 -8.173679566101553e-05
+  angularVelocity 0.001181061900093993 -0.0014998965404515727 -4.501654808536144e-17
+}
+Solid {
+  translation -0.033224072915107795 -0.10415671808990243 0.049607625210084716
+  rotation -0.9999869967519985 0.0036055735799014176 -0.003606406255279232 1.5710030289516184
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(11)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity 5.107927902030247e-08 -7.371914721722116e-05 -1.8428818003712874e-07
+  angularVelocity 0.0014744981732909494 1.021665421863107e-06 1.3920904421694205e-16
+}
+Solid {
+  translation -0.23873963381683858 -1.5382080621377408 0.0496076090039346
+  rotation -0.9999829130419713 -0.004134785621571715 0.004132453503341256 1.5710237568830843
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(12)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity 1.218607618078872e-06 -8.004834838386478e-05 -5.697209667232527e-08
+  angularVelocity 0.001601092098004652 2.437405727011564e-05 2.050429747100995e-16
+}
+Solid {
+  translation 1.086135620155008 -1.4988591731782015 0.04960761586009788
+  rotation -0.9999966737847598 -0.0017037788866518361 0.0019363772675012958 1.570798990304003
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(22)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity -8.852372132771303e-05 9.109708385423783e-08 -1.071917951094292e-07
+  angularVelocity -1.8220840916072236e-06 -0.0017706128189434616 -2.607289381397784e-16
+}
+Solid {
+  translation 0.9575964936974658 1.762233599796817 0.0496076603621616
+  rotation -0.9999967891676435 0.0017918781213322782 -0.0017918781213323264 1.5707995376324078
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(4)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity -5.0327690704335174e-17 -3.9923505791847706e-18 -4.727363605636691e-07
+  angularVelocity 1.3322676295501811e-16 -9.3258734068513e-16 6.550255239183229e-17
+}
+Solid {
+  translation 0.8075838510268188 2.5961434214063175 0.049607675840587756
+  rotation -0.9999744055190372 0.005057877797201673 -0.00506025483912882 1.5706337084382054
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(26)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity 1.2669359563031892e-06 7.162482077623794e-05 -5.766131036466503e-07
+  angularVelocity -0.001432608368555054 2.5340699407649914e-05 -7.129971634271608e-17
+}
+Solid {
+  translation 0.9674446378917146 0.7675297909988439 0.04960761822870824
+  rotation -0.9999998829746778 0.000419328483900424 -0.00024127630050142093 1.5707975879003455
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(19)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity -6.776433608648764e-05 -4.130380402797839e-07 -1.319415697480508e-07
+  angularVelocity 8.261406380061225e-06 -0.0013553926367329437 6.271025419177265e-17
+}
+Solid {
+  translation 0.7943704595803243 -0.9539111362795832 0.04960766036216159
+  rotation -0.9998022159619557 0.01406287590719953 -0.01406287590719952 1.570994130393493
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        baseColorMap ImageTexture {
+          url [
+            "https://es.vecteezy.com/arte-vectorial/6828447-cara-roja-cara-enojada-emoji"
+          ]
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(5)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+  linearVelocity -5.633443139718861e-18 1.2114303900088343e-16 -4.727363605068425e-07
+  angularVelocity -2.664535259100374e-15 -1.332267629550195e-16 -8.166403459399062e-17
+}
+YoubotFlag {
+  translation -2.42713 2.95281 0.2000000000000027
+  rotation 0 0 1 -0.785395307179586
+}
+E-puck {
+  hidden position_0_0 5907.36005194167
+  hidden position_0_1 5960.086140088656
+  hidden linearVelocity_0 -0.07354080326736942 0.015729271303480865 2.418936646042331e-08
+  hidden angularVelocity_0 0.002173518511492675 0.010162081312665851 6.390322299971054e-09
+  hidden rotation_1 0 1 0 1.165863192858265
+  hidden linearVelocity_1 -0.07348999343570412 0.015718403832019598 -7.38802844396937e-11
+  hidden angularVelocity_1 -0.7859202433592353 -3.674499670116311 8.826119654911209e-08
+  hidden rotation_2 0 1 0 3.6264688824080857
+  hidden linearVelocity_2 -0.07348999355703123 0.015718403861727407 3.923018356509375e-11
+  hidden angularVelocity_2 -0.7859201438690844 -3.6744996914008357 -8.055869601784048e-08
+  translation -1.451513817435788 2.8124271550348654 -6.395837139533053e-05
+  rotation 0.0003363957983509133 -3.5573081631054204e-05 0.9999999427862096 2.9308825296635015
+  controller "InferenciaBayesiana"
+}
